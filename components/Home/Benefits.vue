@@ -8,17 +8,14 @@
     <p
       class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 text-center"
     >
-      Discover a multitude of advantages that our system brings to optimize
-      administrative processes and elevate educational quality.
+      Explore the advantages we bring to your school.
     </p>
 
-    <div
-      class="overflow-hidden rounded-lg bg-gray-200 sm:grid sm:grid-cols-3 sm:gap-px my-32"
-    >
+    <div class="rounded-lg sm:grid sm:grid-cols-3 gap-3 my-32">
       <div
         v-for="benefit in benefits"
         :key="benefit.title"
-        :class="['group relative bg-white p-6 border-0']"
+        class="bg-white border border-gray-200 p-6 mb-5 shadow rounded-xl"
       >
         <div>
           <span
@@ -61,7 +58,7 @@ const benefits = [
   {
     title: "Save Money",
     description:
-      "Maximize cost efficiency by utilizing our system, which streamlines processes, minimizes paperwork, and reduces administrative overhead, leading to substantial financial savings for your school.",
+      "Use our system to save money in your school. It makes things smoother, reduces paperwork, and cuts down on administrative costs, putting more money in your pocket.",
     icon: CurrencyDollarIcon,
     iconForeground: "text-teal-700",
     iconBackground: "bg-teal-50",
@@ -69,7 +66,7 @@ const benefits = [
   {
     title: "Save Time",
     description:
-      "Optimize time management with our system, automating tasks, centralizing data, and streamlining communication to free up valuable hours for educators and administrators, ultimately enhancing productivity and focus on core educational objectives.",
+      "Save time with our system. It automates tasks, brings everything together, and makes communication easier, giving teachers and administrators more time to focus on teaching.",
     icon: ClockIcon,
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
@@ -77,7 +74,7 @@ const benefits = [
   {
     title: "Make Money",
     description:
-      "Unlock revenue potential with our system, enabling improved resource allocation, strategic decision-making, and enhanced student engagement, which collectively contribute to a more attractive educational offering and potential revenue growth for your institution.",
+      "Increase your school's income with our system. It helps you use resources better, make smart decisions, and engage students, making your school more appealing and potentially bringing in more money.",
     icon: BanknotesIcon,
     iconForeground: "text-sky-700",
     iconBackground: "bg-sky-50",

@@ -13,7 +13,7 @@ export default defineNuxtConfig({
       "@nuxtjs/google-fonts",
       {
         families: {
-          Outfit: [300, 400, 500, 600, 700],
+          Rubik: [300, 400, 500, 600, 700],
           download: true,
           inject: true,
         },

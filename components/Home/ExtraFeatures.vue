@@ -29,9 +29,13 @@
               aria-hidden="true"
             />
           </div>
-          <h2 class="mt-6 text-lg font-sm text-gray-900">
+          <h2 class="mt-6 text-lg font-semibold text-gray-900">
             {{ feature.title }}
           </h2>
+
+          <dd class="mt-5 text-sm leading-7 text-gray-600">
+            {{ feature.description }}
+          </dd>
         </div>
       </li>
     </ul>
@@ -57,62 +61,74 @@ import {
 const features = [
   {
     title: "HR Management",
-    description: "Paradigm Representative",
+    description:
+      "Efficiently oversee staff operations, payroll, and performance designed specifically for schools.",
     icon: UserIcon,
   },
   {
     title: "Lecture Notes",
-    description: "Paradigm Representative",
+    description:
+      "Access and organize lecture notes effortlessly, ensuring easy retrieval and enhanced learning experiences for students.",
     icon: PencilSquareIcon,
   },
   {
-    title: "Transcript & Academic record",
-    description: "Paradigm Representative",
+    title: "Transcript & Academic Record",
+    description:
+      "Maintain academic records, including transcripts to support student progress tracking and administrative efficiency.",
     icon: ClipboardDocumentListIcon,
   },
   {
     title: "Learning Reminder",
-    description: "Paradigm Representative",
+    description:
+      "Enhance student engagement and retention with our learning reminder feature, designed to keep students informed and on track with their class work.",
     icon: ClockIcon,
   },
   {
     title: "Alumni Management",
-    description: "Paradigm Representative",
+    description:
+      "Efficiently manage your school's alumni network and strengthen your institution's relationships with former students.",
     icon: AcademicCapIcon,
   },
   {
     title: "Procurement Management",
-    description: "Paradigm Representative",
+    description:
+      "Streamline the procurement process, ensuring efficient purchasing, budget management, and vendor relations.",
     icon: PresentationChartLineIcon,
   },
   {
     title: "Asset Management",
-    description: "Paradigm Representative",
+    description:
+      "Effectively track and manage school assets, from equipment to resources, ensuring optimal utilization and maintenance.",
     icon: ChartPieIcon,
   },
   {
     title: "Clubs & Competition",
-    description: "Paradigm Representative",
+    description:
+      "Provide Clubs and Competition information to the system from Bright Consultant Education and Travel.",
     icon: RectangleGroupIcon,
   },
   {
     title: "Inventory & Supplies Management",
-    description: "Paradigm Representative",
+    description:
+      "Optimize inventory and supplies management to ensure timely availability of resources and efficient budget utilization.",
     icon: BuildingOffice2Icon,
   },
   {
-    title: "Career & university guidance",
-    description: "Paradigm Representative",
+    title: "Career & University Guidance",
+    description:
+      "Empower students with comprehensive career and university guidance, enabling informed decisions and successful transitions to higher education and beyond.",
     icon: StarIcon,
   },
   {
     title: "Fee Management",
-    description: "Paradigm Representative",
+    description:
+      "Efficiently handle and track student fees, payments, and financial transactions with our user-friendly fee management system designed to simplify school financial operations.",
     icon: BanknotesIcon,
   },
   {
     title: "Facilities Management",
-    description: "Paradigm Representative",
+    description:
+      "Streamline the management of school facilities, including classrooms, libraries, and sports areas, for optimal resource utilization and a conducive learning environment.",
     icon: BoltIcon,
   },
 ];

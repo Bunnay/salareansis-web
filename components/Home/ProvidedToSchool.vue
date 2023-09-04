@@ -1,6 +1,146 @@
 <template>
-  <div class="relative isolate -z-10 my-32">
-    <div>
+  <div class="mx-5 my-16 lg:mx-32 xl:mx-32">
+    <h2
+      class="text-2xl font-bold leading-7 sm:truncate sm:text-3xl sm:tracking-tight text-center"
+    >
+      What we provide
+    </h2>
+    <p
+      class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 text-center"
+    >
+      Discover what we offer for your school.
+    </p>
+
+    <!-- ID Card -->
+    <div class="bg-gray-300 mt-12 rounded-xl shadow">
+      <div
+        class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch"
+      >
+        <div class="w-full max-w-2xl xl:w-96 xl:flex-none">
+          <div class="relative aspect-[2/1] h-full xl:mx-0 xl:aspect-auto">
+            <img
+              class="absolute inset-0 h-full w-full rounded-2xl object-contain"
+              src="@/assets/images/id-card.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 py-5">
+          <figure class="relative isolate">
+            <p
+              class="mt-5 max-w-xl text-2xl font-bold leading-10 border-b border-gray-400"
+            >
+              Identity Card
+            </p>
+            <blockquote class="text-md mt-3 text-gray-600">
+              <p>
+                At no additional cost, we provide free identity cards to both
+                your students and staff members, contributing to a safer and
+                more organized school environment.
+              </p>
+            </blockquote>
+          </figure>
+
+          <ul class="flex mt-8 gap-4">
+            <li class="h-64 w-32 w-full">
+              <img
+                class="w-full rounded-2xl object-contain"
+                alt="id card"
+                src="@/assets/images/student-front.png"
+              />
+              <p class="mt-2 text-sm leading-8 text-center text-gray-600">
+                Student front
+              </p>
+            </li>
+            <li class="h-64 w-32 w-full">
+              <img
+                class="w-full rounded-2xl object-contain"
+                alt="id card"
+                src="@/assets/images/staff-front.png"
+              />
+              <p class="mt-2 text-sm leading-8 text-center text-gray-600">
+                Staff front
+              </p>
+            </li>
+            <li class="h-64 w-32 w-full">
+              <img
+                class="w-full rounded-2xl object-contain"
+                alt="id card"
+                src="@/assets/images/staff-back.png"
+              />
+              <p class="mt-2 text-sm leading-8 text-center text-gray-600">
+                Staff back
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Access Control -->
+    <div class="bg-gray-300 mt-12 lg:py-12 rounded-xl shadow">
+      <div
+        class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch"
+      >
+        <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 py-5">
+          <figure class="relative isolate">
+            <p
+              class="mt-5 max-w-xl text-2xl font-bold leading-10 border-b border-gray-400"
+            >
+              Access Control Devices.
+            </p>
+            <blockquote class="text-md mt-3 text-gray-600">
+              <p>
+                We offer free Access Control Devices to help you record
+                attendance in your school efficiently and accurately, enhancing
+                attendance tracking without any additional costs.
+              </p>
+            </blockquote>
+          </figure>
+          <img
+            class="w-full rounded-2xl object-contain my-12"
+            alt="scanning methods"
+            src="@/assets/images/scanning-methods.svg"
+          />
+        </div>
+
+        <div class="w-full max-w-2xl xl:w-96 xl:flex-none">
+          <div class="relative aspect-[2/1] h-full xl:mx-0 xl:aspect-auto">
+            <img
+              class="absolute inset-0 h-full w-full rounded-2xl object-contain"
+              src="@/assets/images/access-control.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- One year free -->
+    <div class="bg-gray-300 mt-12 py-12 rounded-xl shadow">
+      <div
+        class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch"
+      >
+        <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 py-5">
+          <figure class="relative isolate">
+            <p
+              class="mt-5 text-4xl pb-5 font-bold leading-10 border-b border-gray-400"
+            >
+              Provides 1 year <span class="text-blue-800">FREE</span> with full
+              features.
+            </p>
+            <blockquote class="text-md mt-3 text-gray-600">
+              <p>
+                Get all the features of our system for free for the first year,
+                saving you money and giving you a complete solution.
+              </p>
+            </blockquote>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div>
       <div
         class="flex flex-col gap-16 bg-blue-800 px-6 py-16 ring-1 ring-white/10 sm:p-8 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20"
       >
@@ -50,42 +190,14 @@
           </ul>
         </div>
         <img
-          class="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-          src="@/assets/images/2286953.png"
+          class="h-96 w-full flex-none rounded-2xl object-contain lg:aspect-square lg:h-auto lg:max-w-sm"
+          src="@/assets/images/announcement.png"
           alt=""
         />
       </div>
-    </div>
-    <div
-      class="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
-      aria-hidden="true"
-    >
-      <div
-        class="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
-        style="
-          clip-path: polygon(
-            73.6% 51.7%,
-            91.7% 11.8%,
-            100% 46.4%,
-            97.4% 82.2%,
-            92.5% 84.9%,
-            75.7% 64%,
-            55.3% 47.5%,
-            46.5% 49.4%,
-            45% 62.9%,
-            50.3% 87.2%,
-            21.3% 64.1%,
-            0.1% 100%,
-            5.4% 51.1%,
-            21.4% 63.9%,
-            58.9% 0.2%,
-            73.6% 51.7%
-          );
-        "
-      />
-    </div>
+    </div> -->
 
-    <div>
+    <!-- <div>
       <div
         class="relative isolate overflow-hidden bg-blue-900 px-6 py-24 text-center shadow-2xl sm:px-16"
       >
@@ -102,7 +214,7 @@
           cost-effective solution.
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

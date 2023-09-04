@@ -8,9 +8,9 @@
     <p
       class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 text-center"
     >
-      Enhance your school's effectiveness and communication using a collection
-      of integrated instruments crafted to improve diverse facets of educational
-      administration.
+      Our solution helps you keep up-to-date with the progress of your students
+      and staff, manage the institute efficiently, and provide a better
+      education with an easy-to-use interface.
     </p>
 
     <ul
@@ -30,9 +30,13 @@
               aria-hidden="true"
             />
           </div>
-          <h2 class="mt-6 text-lg font-sm text-gray-900">
+          <h2 class="mt-6 text-lg font-semibold text-gray-900">
             {{ feature.title }}
           </h2>
+
+          <dd class="mt-5 text-sm leading-7 text-gray-600">
+            {{ feature.description }}
+          </dd>
         </div>
       </li>
     </ul>
@@ -52,7 +56,6 @@ import {
   IdentificationIcon,
   ClipboardDocumentCheckIcon,
   ComputerDesktopIcon,
-  Square2StackIcon,
   Squares2X2Icon,
   DevicePhoneMobileIcon,
   BellAlertIcon,
@@ -64,82 +67,96 @@ const features = [
   {
     title: "Attendance",
     description:
-      "Efficiently monitor and manage student presence with our attendance tracking system.",
+      "You can easily record attendance to the system with multiple options.",
     icon: UsersIcon,
   },
   {
     title: "Employee Management",
-    description: "Paradigm Representative",
+    description:
+      "You can manage your employees based on their roles and permissions, and maintain all information in one place for easy access.",
     icon: UserIcon,
   },
   {
     title: "Campus Management",
-    description: "Paradigm Representative",
+    description:
+      "Easy to use for managing, booking, and transacting with different campus institutions and facilities.",
     icon: BuildingOfficeIcon,
   },
   {
     title: "Student Management",
-    description: "Paradigm Representative",
+    description:
+      "Keep all student information in one place for easy access where and when needed to make informed decisions.",
     icon: AcademicCapIcon,
   },
   {
     title: "Time Table Management",
-    description: "Paradigm Representative",
+    description:
+      "Easily schedule & manage multiple subjects, and notify students & teachers when schedules changed.",
     icon: CalendarIcon,
   },
   {
     title: "Course Management",
-    description: "Paradigm Representative",
+    description:
+      "Efficiently manage courses or subjects for your educational institute with just a few click.",
     icon: BookmarkSquareIcon,
   },
   {
     title: "Parent Portal",
-    description: "Paradigm Representative",
+    description:
+      "Keep parents and school in touch and provide all the information parents need to track their children's progress.",
     icon: UsersIcon,
   },
   {
     title: "Report Card",
-    description: "Paradigm Representative",
+    description:
+      "You can easily and rapidly analyze and generate report cards based on student data using your institute's template.",
     icon: ClipboardIcon,
   },
   {
     title: "ID Cards Integrations",
-    description: "Paradigm Representative",
+    description:
+      "Provide ID cards for all students & staff, so you can use to record attendance or for other purposes.",
     icon: IdentificationIcon,
   },
   {
     title: "Gradebook / Assessment",
-    description: "Paradigm Representative",
+    description:
+      "You can manage your student's grades and track their online progress all from a centralized location in the system.",
     icon: ClipboardDocumentCheckIcon,
   },
   {
     title: "System Management",
-    description: "Paradigm Representative",
+    description:
+      "One system can handle all of your education institutes needs, ensuring your institutes run smoothly and efficiently.",
     icon: ComputerDesktopIcon,
   },
   {
     title: "Admin Dashboard",
-    description: "Paradigm Representative",
+    description:
+      "You can easily view and modify your dashboard and reports to fit your specific business needs, and make decisions based on the data.",
     icon: Squares2X2Icon,
   },
-  {
-    title: "Finance status for Students",
-    description: "Paradigm Representative",
-    icon: BuildingLibraryIcon,
-  },
+  // {
+  //   title: "Finance status for Students",
+  //   description: "Paradigm Representative",
+  //   icon: BuildingLibraryIcon,
+  // },
   {
     title: "Event Management",
-    description: "Paradigm Representative",
+    description:
+      "You can easily announce events and track attendees who registered to the events. Students & parents can view all events that have been published.",
     icon: CalendarDaysIcon,
   },
   {
-    title: "Mobile App",
-    description: "Paradigm Representative",
+    title: "Mobile Application",
+    description:
+      "Provide students & parents with an efficient and convenient way to access information about their classes, homeworks, grades, and events.",
     icon: DevicePhoneMobileIcon,
   },
   {
     title: "Email, App Notification",
-    description: "Paradigm Representative",
+    description:
+      "Provide an easy approach to alert the announcement and information about their schedules, exam dates, homework deadlines, and events through email and notification.",
     icon: BellAlertIcon,
   },
 ];
