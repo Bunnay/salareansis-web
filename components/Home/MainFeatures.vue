@@ -45,7 +45,6 @@
 
 <script setup>
 import {
-  EnvelopeIcon,
   UsersIcon,
   UserIcon,
   BuildingOfficeIcon,
@@ -60,7 +59,6 @@ import {
   DevicePhoneMobileIcon,
   BellAlertIcon,
   CalendarDaysIcon,
-  BuildingLibraryIcon,
 } from "@heroicons/vue/24/outline";
 
 const features = [
@@ -136,11 +134,6 @@ const features = [
       "You can easily view and modify your dashboard and reports to fit your specific business needs, and make decisions based on the data.",
     icon: Squares2X2Icon,
   },
-  // {
-  //   title: "Finance status for Students",
-  //   description: "Paradigm Representative",
-  //   icon: BuildingLibraryIcon,
-  // },
   {
     title: "Event Management",
     description:

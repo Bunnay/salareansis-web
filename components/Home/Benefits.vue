@@ -48,10 +48,8 @@
 <script setup>
 import {
   BanknotesIcon,
-  CheckBadgeIcon,
   ClockIcon,
   CurrencyDollarIcon,
-  UsersIcon,
 } from "@heroicons/vue/24/outline";
 
 const benefits = [

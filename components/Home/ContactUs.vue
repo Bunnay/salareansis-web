@@ -82,11 +82,9 @@
 
 <script setup>
 import {
-  Bars3Icon,
   BuildingOfficeIcon,
   EnvelopeIcon,
   PhoneIcon,
-  XMarkIcon,
   MapPinIcon,
 } from "@heroicons/vue/24/outline";
 

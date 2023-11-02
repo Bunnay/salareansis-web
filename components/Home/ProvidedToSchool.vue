@@ -42,7 +42,7 @@
           </figure>
 
           <ul class="flex mt-8 gap-4">
-            <li class="h-64 w-32 w-full">
+            <li class="h-64 w-32">
               <img
                 class="w-full rounded-2xl object-contain"
                 alt="id card"
@@ -52,7 +52,7 @@
                 Student front
               </p>
             </li>
-            <li class="h-64 w-32 w-full">
+            <li class="h-64 w-32">
               <img
                 class="w-full rounded-2xl object-contain"
                 alt="id card"
@@ -62,7 +62,7 @@
                 Staff front
               </p>
             </li>
-            <li class="h-64 w-32 w-full">
+            <li class="h-64 w-32">
               <img
                 class="w-full rounded-2xl object-contain"
                 alt="id card"
@@ -139,82 +139,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div>
-      <div
-        class="flex flex-col gap-16 bg-blue-800 px-6 py-16 ring-1 ring-white/10 sm:p-8 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20"
-      >
-        <div class="w-full flex-auto">
-          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            We offers based on your preferences. No worry!
-          </h2>
-          <p class="mt-3 mb-16 text-md leading-8 text-gray-300">
-            Provides all of these materials to your school without extra payment
-            every year.
-          </p>
-          <ul
-            role="list"
-            class="mt-10 grid grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 text-white sm:grid-cols-2"
-          >
-            <li
-              v-for="benefit in benefits"
-              :key="benefit.title"
-              class="flex gap-x-3"
-            >
-              <div>
-                <span
-                  :class="[
-                    benefit.iconBackground,
-                    benefit.iconForeground,
-                    'inline-flex rounded-full p-3',
-                  ]"
-                >
-                  <component
-                    :is="benefit.icon"
-                    class="h-8 w-8"
-                    aria-hidden="true"
-                  />
-                </span>
-              </div>
-              <div>
-                <h3
-                  class="text-xl font-semibold leading-6 text-gray-900 text-white"
-                >
-                  {{ benefit.title }}
-                </h3>
-                <p class="mt-2 text-sm text-gray-300 leading-loose">
-                  {{ benefit.description }}
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <img
-          class="h-96 w-full flex-none rounded-2xl object-contain lg:aspect-square lg:h-auto lg:max-w-sm"
-          src="@/assets/images/announcement.png"
-          alt=""
-        />
-      </div>
-    </div> -->
-
-    <!-- <div>
-      <div
-        class="relative isolate overflow-hidden bg-blue-900 px-6 py-24 text-center shadow-2xl sm:px-16"
-      >
-        <h2
-          class="mx-auto max-w-2xl text-4xl font-bold tracking-tight text-white"
-        >
-          Provides 1 year <span class="text-teal-500">FREE</span> with full
-          features.
-        </h2>
-        <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-          When you choose to utilize our system, we are pleased to offer you
-          complimentary access to all the features within our platform for a
-          duration of one year, providing you with a comprehensive and
-          cost-effective solution.
-        </p>
-      </div>
-    </div> -->
   </div>
 </template>
 
